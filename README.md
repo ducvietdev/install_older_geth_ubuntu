@@ -15,9 +15,7 @@ Cách cài đặt phiên bản cũ hơn của go-ethereum trên ubuntu
   - ./build/bin/geth version
 
 # Một số lỗi xảy ra trong quá trình cài
--- Phải tải phiên bản geth phù hợp trên trang chủ go-ethereum
-  + Lỗi không tìm thấy /usr/local/bin/geth
-    => Đưa file geth vào /usr/local/bin
-    => sudo mv geth /usr/local/bin/
-  + Tương tự lỗi không tìm thấy /usr/bin/geth
-    => sudo mv geth /usr/bin
+  - Phải tải phiên bản geth phù hợp trên trang chủ go-ethereum
+  + Lỗi không đưa được geth ra môi trường bên ngoài
+  + sudp cp /đường/dẫn/đến/thư/mục/go-ethereum/build/bin/geth /usr/bin/
+
